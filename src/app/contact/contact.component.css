@@ -1,0 +1,13 @@
+.container {
+  padding: 120px 0;
+}
+
+.line {
+  background-color: #000;
+  height: 4px;
+  width: 80px;
+}
+.mybtn {
+  background-color: #1abc9c;
+  color: #fff;
+}

@@ -1,0 +1,11 @@
+.contain {
+  background-color: #1abc9c;
+}
+.contet {
+  padding-top: 125px !important;
+}
+.line {
+  background-color: #fff;
+  height: 4px;
+  width: 80px;
+}

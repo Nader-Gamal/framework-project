@@ -1,0 +1,82 @@
+.boxContainer {
+  padding: 40px 0;
+}
+.myClass {
+  background-color: #09c !important;
+  color: "#fff" !important;
+  font-size: 25px;
+}
+
+#boxContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+#boxItem {
+  width: 800px;
+  height: 70%;
+  /* background-image: url(); */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+#close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+i {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.line {
+  background-color: #000;
+  height: 4px;
+  width: 80px;
+}
+.item {
+  overflow: hidden;
+}
+.overlay {
+  background-color: #1abc9ce6;
+  top: 100%;
+  bottom: 100%;
+}
+.plus {
+  display: none;
+}
+.fa-solid,
+.fas {
+  font-weight: 900;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.item:hover .overlay {
+  top: 0;
+  bottom: 0;
+}
+.item:hover .plus {
+  display: block;
+}
+
+.modal-content {
+  margin: 120px 0;
+}
